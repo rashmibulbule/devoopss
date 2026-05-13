@@ -16,5 +16,5 @@ jobs:
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          cd /home/ubuntu/deploy
+          cd /home/ubuntu/deploy/devoopss
           ./deploy.sh
